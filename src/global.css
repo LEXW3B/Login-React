@@ -1,0 +1,32 @@
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --green-dark: #036b52;
+  --green-light: #d1e7dd;
+  --blue: #006dfd;
+  --purple: #41197f;
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #dc3545;
+
+  /* 60 30 10 */
+  --primary: var(--white);
+  --secondary: #1a1b1c;
+  --accent: #2fc18c;
+
+  --grey-50: #f8fafc;
+  --grey-20: #e2e8f0;
+
+  /* box shadows */
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.01), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
